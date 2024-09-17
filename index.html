@@ -6,8 +6,7 @@
     window.cookieconsent_options = {"message":"Unsurprisingly, this website uses cookies for ads and traffic analysis.","dismiss":"Got it!","learnMore":"Learn more","link":"//orteil.dashnet.org/cookieconsentpolicy.html","target":"_blank","theme":"//orteil.dashnet.org/cookieconsent.css","domain":"dashnet.org"};
 </script>
 
-<script type="text/javascript" src="https://raw.githubusercontent.com/Rok574/Hac/gh-pages/showads.js"></script>
-	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
 
 <!--<link href="https://fonts.googleapis.com/css?family=Kavoon&subset=latin,latin-ext" rel="stylesheet" type="text/css">-->
 <link href='https://fonts.googleapis.com/css?family=Merriweather:900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -34,7 +33,7 @@ Feel free to alter this code to your liking, but please do not re-host it, do no
 -->
 
 <meta name="viewport" content="width=900, initial-scale=1">
-<link rel="shortcut icon" href="https://wakeid2.wcpss.net/favicon.ico" />
+<link rel="shortcut icon" href="img/favicon.ico" />
 <script src="base64.js"></script>
 
 <script>
@@ -48,11 +47,7 @@ var App=typeof App==='undefined'?0:App;
 
 <!-- ad -->
 <script src="showads.js"></script><!-- this just detects adblockers so we can adjust the layout and play nice -->
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-8491708950677704",
-          enable_page_level_ads: true
-     });
+
 </script>
 <!-- /ad -->
 
@@ -69,8 +64,15 @@ var App=typeof App==='undefined'?0:App;
 <div id="wrapper">
 
 	<div id="topBar">
-		<div><b style="font-weight:bold;">Cookie Clicker Unblocked</b>&trade; &copy; <a href="" target="_blank" id="topbarOrteil">Austin</a>, 2024 - <a href="//dashnet.org" target="_blank" id="topbarDashnet">DashNet</a></div>
+		<div><b style="font-weight:bold;">Cookie Clicker Unblocked</b>&trade; &copy; <a href="/" target="_blank" id="topbarOrteil">Austin</a>, 2024 - <a href="/" target="_blank" id="topbarDashnet"></a>Site</div>
+		<div><a href="" target="_blank" id="topbarTwitter"></a></div>
+		<div><a href="" target="_blank" id="topbarTumblr"></a></div>
+		<div style="position:relative;"><div style="width:22px;height:32px;background:url(img/discord.pn);position:absolute;left:0px;top:0px;pointer-events:none;"></div><a href="" target="_blank" style="padding-left:16px;" id="topbarDiscord"></a></div>
+		<div style="position:relative;"><div style="width:25px;height:32px;background:url(img/weeHoodie.pn);position:absolute;left:-2px;top:0px;pointer-events:none;"></div><a class="blueLink" href="" target="_blank" style="padding-left:12px;" id="topbarMerch"></a></div>
+		<div style="position:relative;"><div style="width:22px;height:32px;background:url(img/patreon.pn);position:absolute;left:0px;top:0px;pointer-events:none;"></div><a class="orangeLink" href="" target="_blank" style="padding-left:16px;" id="topbarPatreon"></a></div>
 		<div style="position:relative;display:none;font-weight:bold;" id="heralds"><div style="position:absolute;top:-4px;width:31px;height:39px;background:url(img/heraldFlag.png);left:50%;margin-left:-15px;pointer-events:none;"></div><div id="heraldsAmount" style="position:relative;z-index:10;text-shadow:0px 1px 0px #000,0px 0px 6px #ff00e4;color:#fff;">-</div></div>
+		<div><a class="lightblueLink" style="font-weight:bold;" href="https://play.google.com/store/apps/details?id=org.dashnet.cookieclicker" target="_blank" id="topbarMobileCC">Cookie Clicker for Android</a></div>
+		<div><a class="lightblueLink" style="font-weight:bold;" href="https://store.steampowered.com/app/1454400/Cookie_Clicker/" target="_blank" id="topbarSteamCC">Cookie Clicker on Steam</a></div>
 		<div><a href="//orteil.dashnet.org/randomgen/" target="_blank" id="topbarRandomgen">RandomGen</a></div>
 		<div><a href="//orteil.dashnet.org/igm/" target="_blank" id="topbarIGM">Idle Game Maker</a></div>
 		<div style="float:right;position:relative;"><div id="tinyglobe" style="position:absolute;top:-4px;width:22px;height:22px;background:url(img/tinyglobeSheet.gif);right:4px;top:4px;pointer-events:none;"></div><a id="changeLanguage" style="font-variant:small-caps;padding-right:20px;" onmouseover="INTERVAL_TINYGLOBE=setInterval(function(){var tinyglobe=document.getElementById('tinyglobe');tinyglobe.style.backgroundPosition=(parseInt(tinyglobe.style.backgroundPosition)-22)+'px';},30);" onmouseout="clearInterval(INTERVAL_TINYGLOBE);">Change language</a><script>document.getElementById('tinyglobe').style.backgroundPosition=(-[0,19,27][Math.floor(Math.random()*3)]*22)+'px';</script></div>
@@ -78,9 +80,9 @@ var App=typeof App==='undefined'?0:App;
 			Other versions
 			<div class="hoverable">
 				<a href="../" target="_blank" id="linkVersionLive">Live version</a>
-				<a href="beta" target="_blank" id="linkVersionBeta">DOSENT WORK Try the beta!</a>
-				<a href="//orteil.dashnet.org/cookieclicker/v10466" target="_blank" id="linkVersionOld">DOSENT WORK v. 1.0466</a>
-				<a href="//orteil.dashnet.org/experiments/cookie/" target="_blank">DOSENT WORK Classic</a>
+				<a href="beta" target="_blank" id="linkVersionBeta">Try the beta!</a>
+				<a href="//orteil.dashnet.org/cookieclicker/v10466" target="_blank" id="linkVersionOld">v. 1.0466</a>
+				<a href="//orteil.dashnet.org/experiments/cookie/" target="_blank">Classic</a>
 			</div>
 		</div>
 	</div>
@@ -167,9 +169,8 @@ var App=typeof App==='undefined'?0:App;
 			</div>
 			<div id="smallSupport" style="width:300px;text-align:center;padding-bottom:40px;background:rgba(0,0,0,0.5);position:relative;z-index:100;">
 				
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- Cookie Clicker Header Responsive -->
 				
+			</div>
 			<!-- /ad -->
 			<br><br><div id="store">
 				<div id="storeTitle" class="inset title zoneTitle">Store</div>
@@ -180,10 +181,7 @@ var App=typeof App==='undefined'?0:App;
 				<div id="products" class="storeSection"></div>
 			</div>
 			<!-- ad -->
-			<div id="detectAds" class="adBanner" style="background:transparent;width:1px;height:1px;"></div>
-			<div id="support" style="margin-top:130px;">
-				
-						
+			
 						
 					</div>
 					
