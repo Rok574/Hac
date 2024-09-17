@@ -2541,7 +2541,7 @@ Game.Launch=function()
 				Game.showLangSelection();
 			});
 			
-			Game.attachTooltip(l('topbarOrteil'),'<div style="padding:8px;width:250px;text-align:center;">Nothing Here!</div>'+tinyIcon([17,5],'display:block;margin:-12px auto;'),'this');
+			Game.attachTooltip(l('topbarOrteil'),'<div style="padding:8px;width:250px;text-align:center;">Hello Austin Has Unblocked Cookie Clicker YIPPY!</div>'+tinyIcon([17,5],'display:block;margin:-12px auto;'),'this');
 			Game.attachTooltip(l('topbarDashnet'),'<div style="padding:8px;width:250px;text-align:center;">Back to our homepage!</div>','this');
 			Game.attachTooltip(l('topbarTwitter'),'<div style="padding:8px;width:250px;text-align:center;">Orteil\'s twitter, which frequently features game updates.</div>','this');
 			Game.attachTooltip(l('topbarTumblr'),'<div style="padding:8px;width:250px;text-align:center;">Orteil\'s tumblr, which frequently features game updates.</div>','this');
