@@ -3,7 +3,7 @@
 <head>
 
 <script type="text/javascript">
-    window.cookieconsent_options = {"message":"Unsurprisingly, this website uses cookies for ads and traffic analysis.","dismiss":"Got it!","learnMore":"Learn more","link":"http://orteil.dashnet.org/cookieconsentpolicy.html","target":"_blank","theme":"http://orteil.dashnet.org/cookieconsent.css","domain":"dashnet.org"};
+    window.cookieconsent_options = {"message":"Unsurprisingly, this website uses cookies for ads and traffic analysis.","dismiss":"Got it!","learnMore":"Learn more","link":"policy.html","target":"_blank","theme":"https://translate.google.com/translate?sl=auto&tl=en&hl=en&uhttp://orteil.dashnet.org/cookieconsent.css","domain":"https://translate.google.com/translate?sl=auto&tl=en&hl=en&udashnet.org"};
 </script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
 
@@ -530,7 +530,7 @@ function Beautify(what)//turns 9999999 into 9,999,999
 
 var str='';
 var pics=['cursor','grandma','mine','factory','lab','shipment','goldengrandma','grandmaiconinvert','grandmaiconlustful','portal','skellington','kaleigrandma','factorygrandma','minegrandma','shipmentgrandma','portalgrandma','pledgedgrandma','pledgeicon','timemachine','timegrandma'];
-for (var i in pics) {str+='<img src="'+pics[i]+'.png"/>';}
+for (var i in pics) {str+='<img src="https://translate.google.com/translate?sl=auto&tl=en&hl=en&u=https://orteil.dashnet.org/experiments/cookie/'+pics[i]+'.png"/>';}
 l('hiddenLoader').innerHTML=str;
 
 Cookies=0;
@@ -741,7 +741,7 @@ RebuildStore=function()
 		else if (Buyables[i].name=='Alchemy lab') amount=Labs;
 		else if (Buyables[i].name=='Portal') amount=Portals;
 		else if (Buyables[i].name=='Time machine') amount=Times;
-		str+='<div id="buy'+Buyables[i].name+'" onclick="Buy(\''+Buyables[i].name+'\');" style="'+(Buyables[i].name=='Elder Pledge'?'display:none;':'')+(Buyables[i].name=='Time machine'?'font-size:90%;':'')+'background-image:url('+Buyables[i].pic+'.png);"><b>'+Buyables[i].name+' - <moni></moni> '+Beautify(Buyables[i].price)+'</b>'+Buyables[i].desc+''+(amount>0?('<div class="amount">'+amount+'</div>'):'')+'</div>';
+		str+='<div id="buy'+Buyables[i].name+'" onclick="Buy(\''+Buyables[i].name+'\');" style="'+(Buyables[i].name=='Elder Pledge'?'display:none;':'')+(Buyables[i].name=='Time machine'?'font-size:90%;':'')+'background-image:url(https://translate.google.com/translate?sl=auto&tl=en&hl=en&u=https://orteil.dashnet.org/experiments/cookie/'+Buyables[i].pic+'.png);"><b>'+Buyables[i].name+' - <moni></moni> '+Beautify(Buyables[i].price)+'</b>'+Buyables[i].desc+''+(amount>0?('<div class="amount">'+amount+'</div>'):'')+'</div>';
 	}
 	l('store').innerHTML=str;
 	StoreToRebuild=0;
@@ -998,10 +998,10 @@ Main=function()
 			else if (Math.random()<0.02) icon='grandmaiconlustful';
 		}
 		if (Cookies>=10000000 && Math.random()<0.02) icon='skellington';
-		if (Cookies>=1000000000) l('whole').style.background='url(kaleigrandma.png) '+Math.floor(T*0.2)+'px -'+Math.floor(T*0.1)+'px';
+		if (Cookies>=1000000000) l('whole').style.background='url(https://translate.google.com/translate?sl=auto&tl=en&hl=en&u=https://orteil.dashnet.org/experiments/cookie/kaleigrandma.png) '+Math.floor(T*0.2)+'px -'+Math.floor(T*0.1)+'px';
 		else if (Math.random()<r)
 		{
-			l('whole').style.background='url('+icon+'.png) '+Math.floor(Math.random()*4)+'px '+Math.floor(Math.random()*4)+'px';
+			l('whole').style.background='url(https://translate.google.com/translate?sl=auto&tl=en&hl=en&u=https://orteil.dashnet.org/experiments/cookie/'+icon+'.png) '+Math.floor(Math.random()*4)+'px '+Math.floor(Math.random()*4)+'px';
 			l('whole').style.backgroundSize=Math.floor(r2*Math.random()*64+64)+'px '+Math.floor(r2*Math.random()*64+64)+'px ';
 		}
 	}//sorry
